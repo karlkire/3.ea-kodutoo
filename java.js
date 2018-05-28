@@ -14,7 +14,6 @@ window.onload = function () {
       selectedImage.style.height = selectedImage.offsetHeight * 3 + 'px'
       selectedImage.style.position = 'fixed'
       // selectedImage.style.transition = '2s'
-
       selectedImage.style.left = window.innerWidth / 2 - 0.5 * selectedImage.style.width.replace('px', '') + 'px'
       selectedImage.style.top = 0
     }, true)
